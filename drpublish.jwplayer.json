@@ -1,0 +1,23 @@
+{
+  "floats": {
+    "type": "array",
+    "title": "Float classes",
+    "items": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "string",
+          "title": "Label"
+        },
+        "icon": {
+          "type": "string",
+          "title": "Icon url"
+        },
+        "className": {
+          "type": "string",
+          "title": "CSS class"
+        }
+      }
+    }
+  }
+}
