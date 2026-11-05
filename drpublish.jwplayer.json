@@ -11,7 +11,7 @@
         },
         "icon": {
           "type": "string",
-          "title": "Icon url"
+          "title": "Icon URL"
         },
         "className": {
           "type": "string",
@@ -33,11 +33,11 @@
         },
         "name": {
           "type": "string",
-          "title": "Name (stable identifier; used as data-attribute key)"
+          "title": "Name (stable identifier; used as data-attribute key)."
         },
         "disabled": {
           "type": "boolean",
-          "title": "Disabled (hide from toolbar; preserved in existing articles)"
+          "title": "Disabled (hide from toolbar; preserved in existing articles)."
         },
         "values": {
           "type": "array",
