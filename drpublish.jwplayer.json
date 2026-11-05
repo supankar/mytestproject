@@ -20,40 +20,38 @@
       }
     }
   },
-  imageVariants: {
-    type: "array",
-    title: "Image variants (appears in context menu)",
-    default: [
-      
-    ],
-    items: {
-      type: "object",
-      properties: {
-        label: {
-          type: "string",
-          title: "Label"
+  "imageVariants": {
+    "type": "array",
+    "title": "Image variants (appears in context menu)",
+    "default": [],
+    "items": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "string",
+          "title": "Label"
         },
-        name: {
-          type: "string",
-          title: "Name (stable identifier; used as data-attribute key)"
+        "name": {
+          "type": "string",
+          "title": "Name (stable identifier; used as data-attribute key)"
         },
-        disabled: {
-          type: "boolean",
-          title: "Disabled (hide from toolbar; preserved in existing articles)"
+        "disabled": {
+          "type": "boolean",
+          "title": "Disabled (hide from toolbar; preserved in existing articles)"
         },
-        values: {
-          type: "array",
-          title: "Values",
-          items: {
-            type: "object",
-            properties: {
-              label: {
-                type: "string",
-                title: "Label"
+        "values": {
+          "type": "array",
+          "title": "Values",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "title": "Label"
               },
-              value: {
-                type: "string",
-                title: "Value"
+              "value": {
+                "type": "string",
+                "title": "Value"
               }
             }
           }
